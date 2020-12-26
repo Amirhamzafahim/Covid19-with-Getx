@@ -33,10 +33,26 @@ class _HomepageState extends State<Homepage> {
               });
             },
             builder: (_) {
-              return TextField(
-                onChanged: (v) {
-                  controller.serachcountry(v);
-                },
+              return Container(
+                decoration:BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.grey[200],
+
+                  
+                ) ,
+                child: TextField(
+                  decoration:InputDecoration(
+                    hintText: "Search Your Country",
+                    prefixIcon:Icon(Icons.email) ,
+                    
+                    disabledBorder:InputBorder.none 
+                    
+
+                  ) ,
+                  onChanged: (v) {
+                    controller.serachcountry(v);
+                  },
+                ),
               );
             },
           ),
