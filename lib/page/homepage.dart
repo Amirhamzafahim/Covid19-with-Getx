@@ -1,6 +1,5 @@
 import 'package:covid_19/controller.dart';
 import 'package:covid_19/fetchnigdata.dart';
-import 'package:covid_19/test.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

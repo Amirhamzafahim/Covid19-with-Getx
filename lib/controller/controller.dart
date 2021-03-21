@@ -9,11 +9,6 @@ class Dataget extends GetxController {
 
 
 bool isLoading = true;
-  //   var searchdata = Responses;
-  // var searchdata2 = Responses;
-
-    // var searchdata = List<Covid>();
-  // var searchdata2 = List<Covid>();
 
   updateData(value) {
     // searchdata=value;
@@ -22,7 +17,6 @@ bool isLoading = true;
     myFetchData = value;
     searchdata= myFetchData.response;
     searchdata2 = searchdata;
-    // isLoading=false;
     update();
   }
 
