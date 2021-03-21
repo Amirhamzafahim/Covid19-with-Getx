@@ -1,6 +1,6 @@
 # covid_19
 
-A new Flutter project.
+getx with api ,search data.sort serial data
 
 ## Getting Started
 
