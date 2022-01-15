@@ -73,7 +73,8 @@ class _HomepageState extends State<Homepage> {
                         return GestureDetector(
                           onTap: () {
                             Get.to(Country(
-                              datarcv: controller.myFetchData.response[index],
+                              //datarcv: controller.myFetchData.response[index],
+                              datarcv: controller.searchdata[index],
                             ));
                           },
                           child: Card(
