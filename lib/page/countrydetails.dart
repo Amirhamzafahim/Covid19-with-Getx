@@ -15,6 +15,7 @@ class Country extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.pink,
         // title: Text(country['name']),
+        title: Text(datarcv.country.toString()),
       ),
       body: Container(
         padding: EdgeInsets.all(10),
